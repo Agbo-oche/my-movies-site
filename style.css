@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
 }
 
+
 /* navbar */
 
 .navbar{
@@ -80,14 +81,15 @@ filter: brightness(50%);
     /* genre */
 
     .genre-heading{
-      font-size: 30px;
-      padding: 10px auto 0 auto;
-      margin-bottom: -50px;
-      margin-left: 20px;
+        background-color: black;
+        color: white;
+      font-size: 50px;
+      padding: 20px 10px 10px 20px ;
+    
     }
 
     .genre{
-        margin-bottom: 70px;
+        background-color:black ;
         box-sizing: border-box;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
@@ -230,7 +232,7 @@ filter: brightness(50%);
     .genre-heading{
         text-align: center;
     margin-left: 0;
-    font-size: 22px;
+    font-size: 40px;
     padding-bottom: 10px;
     }
 } 
@@ -249,6 +251,7 @@ height:max-content;
 /* FAQS */
 
 #FAQS{
+    box-sizing: border-box;
     background-color: black;
 width: 100%;
 padding: 50px 0;
@@ -330,7 +333,7 @@ width: 80%;
 }
 
 .content p{
-font-size: 10px;
+font-size: 15px;
 }
 
 }
@@ -349,6 +352,33 @@ margin: auto;
 .content p{
     font-size: 20px;  
 }
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    padding: 7% ;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 200;
+   }
+
+   .footer p{
+    color: white;
+    padding-top: 15px;
+   }
+
+.footer_item{
+    text-decoration: none;
+    color: white;
+    padding: 19px ;
+   
+}
+
+.footer_line{
+width: 100%;
+height: 3px;
+background: linear-gradient(to right, #d12027 0%, #e65525 22%, #f7901e 91%, #fdba12 100%);
 }
 
    
